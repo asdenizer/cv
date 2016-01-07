@@ -494,21 +494,43 @@ ul.social-about li.fb a{
 }
 .item-work-experience{
 	position: relative;
-	border-left: 3px solid #1DCAE8;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-right: 20px;
-	padding-left: 20px;
 	margin-bottom: 40px;
 }
+.item-w-icon{
+	float: left;
+	display: inline;
+	width: 100px;
+	height: 100px;
+	background: #1DCAE8;
+	border-radius: 50%;
+}
+.item-w-info{
+	margin-left: 125px;
+}
 .w-e-date{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #827F7F;
+	font-family: 'Oswald', sans-serif;
 }
 .w-e-info{
 	position: relative;
 }
 .w-e-title{
 	float: left;
+	width: 200px;
+	color: #1DCAE8;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
 }
-.w-e-title-info{}
+.w-e-title-info{
+	margin-left: 220px;
+	color: #525252;
+}
