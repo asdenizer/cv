@@ -499,9 +499,7 @@ ul.social-about li.fb a{
 	padding-bottom: 30px;
 	border-bottom: 1px solid #eee;
 	padding-right: 20px;
-<<<<<<< HEAD
 	margin-bottom: 40px;
-=======
 	margin-bottom: 20px;
 }
 .item-w-icon{
@@ -522,7 +520,6 @@ ul.social-about li.fb a{
 }
 .item-w-info{
 	margin-left: 125px;
->>>>>>> master
 }
 .item-w-icon{
 	float: left;
@@ -548,11 +545,8 @@ ul.social-about li.fb a{
 }
 .w-e-title{
 	float: left;
-<<<<<<< HEAD
 	width: 200px;
-=======
 	width: 220px;
->>>>>>> master
 	color: #1DCAE8;
 	font-family: 'Oswald', sans-serif;
 	font-size: 22px;
@@ -560,16 +554,13 @@ ul.social-about li.fb a{
 	letter-spacing: 0.5px;
 }
 .w-e-title-info{
-<<<<<<< HEAD
 	margin-left: 220px;
 	color: #525252;
-=======
 	margin-left: 260px;
 	color: #525252;
 	font-size: 14px;
     line-height: 26px;
     letter-spacing: 0.5px;
->>>>>>> master
 }
 /* PORTFOLIO */
 .ok-wrap-portfolio{
