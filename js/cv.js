@@ -47,9 +47,24 @@
 	        }
 	    });
 
+	    /* Scroll To Top */
+		$(window).on("scroll",function(){
+	        if ($(this).scrollTop() > 500) {
+	            $('.el_totop').removeClass("eltophide");
+	        } else {
+	            $('.el_totop').addClass("eltophide");
+	        }
+	    });
+
+	    // Button To Top
+		$('.el_totop').on("click",function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+
 		// Menu Button Responsive
-	    $('.menu-btn').on("click",function(){
-			$('.wrap-menu-res').slideToggle();
+	    $('.bt-mn-res i').on("click",function(){
+			$('.mn-nav-re').slideToggle();
 		});
 
 	    // link menu landing page
