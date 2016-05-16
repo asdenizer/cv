@@ -359,6 +359,7 @@ h5, h6{
 .wrap-item-about-author{
 	position: relative;
 	margin-bottom: 15px;
+	word-wrap: break-word;
 }
 .item-about-author-title{
 	width: 80px;
@@ -383,11 +384,13 @@ ul.social-about li{
 	display: inline-block;
 	margin-right: 5px;
 	margin-left: 5px;
+	margin-bottom: 15px;
 }
 ul.social-about li a{
 	color: #fff;
 	background: #1DCAE8;
 	border-radius: 50%;
+	display: inline-block;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 23px;
