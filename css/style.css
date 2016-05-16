@@ -24,6 +24,7 @@ body{
 	background-attachment: fixed;
 	background-position: bottom;
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
 }
 html, body{
 }
